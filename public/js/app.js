@@ -1,7 +1,3 @@
-//console.log('clint side js')
-
-
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const message1 = document.querySelector('#message-1')
@@ -23,8 +19,7 @@ weatherForm.addEventListener('submit',(e)=>{
         {
             message1.textContent=data.location
             message2.textContent=data.forecast
-        // console.log(data.forecast)
-        // console.log(data.location)
+       
         }
     })
 })
